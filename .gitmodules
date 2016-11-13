@@ -1,0 +1,3 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://jcd3@bitbucket.org/xackers/district-finder-frontend.git

@@ -1,0 +1,22 @@
+### Built files ###
+target/
+src/main/resources/static
+
+### Maven dependency###
+!.mvn/wrapper/maven-wrapper.jar
+
+### Frontend ###
+/frontend
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
