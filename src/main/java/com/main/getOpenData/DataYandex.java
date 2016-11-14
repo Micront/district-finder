@@ -190,8 +190,8 @@ public class DataYandex {
 //        List<Company> listCompany = new ArrayList<>(15);
 //        while (iterator.hasNext()) {
 //            Company company = iterator.next();
-//            if (Math.pow(company.getCoordinateX()-centreCoor.getX(), 2) +
-//                    Math.pow(company.getCoordinateY()-centreCoor.getY(), 2) < radiusSquared) {
+//            if (Math.pow(company.getLongitude()-centreCoor.getX(), 2) +
+//                    Math.pow(company.getLatitude()-centreCoor.getY(), 2) < radiusSquared) {
 //                listCompany.add(company);
 //            }
 //        }
@@ -211,8 +211,8 @@ public class DataYandex {
 //        List<Company> listCompany = new ArrayList<>(15);
 //        while (iterator.hasNext()) {
 //            Company company = iterator.next();
-//            if (Math.pow(company.getCoordinateX()-centreCoor.getX(), 2) +
-//                    Math.pow(company.getCoordinateY()-centreCoor.getY(), 2) < radiusSquared) {
+//            if (Math.pow(company.getLongitude()-centreCoor.getX(), 2) +
+//                    Math.pow(company.getLatitude()-centreCoor.getY(), 2) < radiusSquared) {
 //                listCompany.add(company);
 //            }
 //        }

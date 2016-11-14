@@ -4,7 +4,7 @@ public class EstimateParam {
     int type;
     double importance;
 
-    public static String getRaiting(String json){
+    public  String getInfo(String json){
 
 
 

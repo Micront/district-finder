@@ -21,12 +21,12 @@ public class Company {
     private String address;
 
     @NotNull
-    @Column(name = "coordinateX")
-    private double coordinateX;
+    @Column(name = "lng")
+    private double longitude;
 
     @NotNull
-    @Column(name = "coordinateY")
-    private double coordinateY;
+    @Column(name = "lat")
+    private double latitude;
 
     @NotNull
     private int idType;
@@ -56,12 +56,12 @@ public class Company {
     public Company() {
     }
 
-    public Company(String name, String address, double coordinateX, double coordinateY, int idType, int parentId,
+    public Company(String name, String address, double longitude, double latitude, int idType, int parentId,
                    Date date, String url, String phoneNumber, String workTime, String additionalInfo, long idFromSource) {
         this.name = name;
         this.address = address;
-        this.coordinateX = coordinateX;
-        this.coordinateY = coordinateY;
+        this.longitude = longitude;
+        this.latitude = latitude;
         this.idType = idType;
         this.parentId = parentId;
         this.date = date;
@@ -84,12 +84,12 @@ public class Company {
         return address;
     }
 
-    public double getCoordinateX() {
-        return coordinateX;
+    public double getLongitude() {
+        return longitude;
     }
 
-    public double getCoordinateY() {
-        return coordinateY;
+    public double getLatitude() {
+        return latitude;
     }
 
     public int getIdType() {
@@ -140,13 +140,13 @@ public class Company {
     }
 
     @PersistenceContext
-    public void setCoordinateX(double coordinateX) {
-        this.coordinateX = coordinateX;
+    public void setLongitude(double longitude) {
+        this.longitude = longitude;
     }
 
     @PersistenceContext
-    public void setCoordinateY(double coordinateY) {
-        this.coordinateY = coordinateY;
+    public void setLatitude(double latitude) {
+        this.latitude = latitude;
     }
 
     @PersistenceContext
